@@ -1,0 +1,133 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  background-image: url('background5.png');
+
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Comic Sans MS';
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 30px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  width: 70%;
+  min-width: 300px;
+}
+
+.top-container {
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+  padding-bottom: 3px;
+  column-gap: 3px;
+  border-bottom: solid;
+  border-bottom-width: 1px;
+  width: 100%;
+}
+
+button {
+  background: #124e86;
+  color: rgb(236, 222, 25);
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.add-todo-btn {
+  padding: 10px;
+  width: 25%;
+}
+
+.todo-delete-btn {
+  margin-left: 10px;
+  text-decoration: initial;
+}
+
+.todo-list {
+  list-style-type: square;
+}
+
+.todo-item {
+  background-color: wheat;
+  /*text-size-adjust: 100;*/
+  font-family: 'Comic Sans MS';
+  display: flex;
+  font-weight: bold;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  padding: 1px 5px;
+  margin-bottom: 4px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom-container {
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 3px;
+  column-gap: 3px;
+  border-bottom: solid;
+  border-bottom-width: 1px;
+  width: 100%;
+}
+
+.todos-total-container {
+  margin-bottom: 3px;
+  font-family: 'Comic Sans MS';
+}
+
+.filter-button-container {
+  display: flexbox;
+  justify-content: center;
+}
+
+.todo-all-btn {
+  margin-left: 10px;
+  text-decoration: initial;
+}
+
+.todo-completed-btn {
+  margin-left: 10px;
+  text-decoration: initial;
+}
+
+.todo-completed {
+  text-decoration: line-through;
+  background-color: slategrey;
+}
+
+.todo-active-btn {
+  margin-left: 10px;
+  text-decoration: initial;
+}
